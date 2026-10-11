@@ -30,7 +30,6 @@ public class Main {
         averageMarksThread[3] = new AverageMarksThread("Nusrat", 50,55,60);
         averageMarksThread[4] = new AverageMarksThread("Sakib", 75,80,85);
         averageMarksThread[5] = new AverageMarksThread("Mim", 40,45,50);
-        AverageMarksThread amt = new AverageMarksThread("Rahim", 90, 75, 90);
 
         try {
             for (int i = 0; i < totalMarksThreads.length; i++) {
